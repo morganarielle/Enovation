@@ -1,0 +1,13 @@
+#N canvas 690 144 666 474 12;
+#X obj 220 229 dac~;
+#X floatatom 214 115 5 0 0 0 - - -;
+#X floatatom 310 113 5 0 0 0 - - -;
+#X msg 207 72 50;
+#X msg 304 72 0.45;
+#X obj 220 171 detuned_synth;
+#X connect 1 0 5 0;
+#X connect 2 0 5 1;
+#X connect 3 0 1 0;
+#X connect 4 0 2 0;
+#X connect 5 0 0 0;
+#X connect 5 0 0 1;
